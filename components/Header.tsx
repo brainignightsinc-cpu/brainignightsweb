@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 
 export default function Header() {
@@ -20,8 +21,15 @@ export default function Header() {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <nav className="container-custom">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent">
+          <Link href="/" className="flex items-center space-x-3">
+            <Image
+              src="/logo.svg"
+              alt="BrainIgnights logo"
+              width={40}
+              height={40}
+              className="h-10 w-10"
+            />
+            <div className="text-2xl font-bold text-gray-900">
               BrainIgnights
             </div>
           </Link>

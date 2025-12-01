@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#050507"/>
+  <!-- Stylized device -->
+  <rect x="128" y="320" width="256" height="80" rx="16" stroke="#F4F0E8" stroke-width="16"/>
+  <rect x="176" y="336" width="160" height="16" fill="#F4F0E8"/>
+  <!-- Falling data bars -->
+  <rect x="240" y="272" width="16" height="40" fill="#F4F0E8"/>
+  <rect x="272" y="272" width="16" height="56" fill="#F4F0E8"/>
+  <rect x="208" y="280" width="16" height="32" fill="#F4F0E8"/>
+  <!-- Gear -->
+  <circle cx="256" cy="192" r="40" stroke="#F4F0E8" stroke-width="14"/>
+  <circle cx="256" cy="192" r="16" fill="#F4F0E8"/>
+  <path d="M256 132L270 144L290 140L298 160L318 164L318 188L334 200L326 220L338 236L322 252L306 244L286 252L276 272L256 268L236 272L226 252L206 244L190 252L174 236L186 220L178 200L194 188L194 164L214 160L222 140L242 144L256 132Z" stroke="#F4F0E8" stroke-width="10" stroke-linejoin="round"/>
+  <!-- Floating squares -->
+  <rect x="164" y="112" width="32" height="32" stroke="#F4F0E8" stroke-width="10"/>
+  <rect x="320" y="116" width="32" height="32" stroke="#F4F0E8" stroke-width="10"/>
+  <rect x="332" y="228" width="24" height="24" stroke="#F4F0E8" stroke-width="8"/>
+  <rect x="152" y="228" width="24" height="24" stroke="#F4F0E8" stroke-width="8"/>
+</svg>
+
+

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -9,7 +10,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold text-white mb-4">BrainIgnights</h3>
+            <div className="flex items-center space-x-3 mb-4">
+              <Image
+                src="/logo.svg"
+                alt="BrainIgnights logo"
+                width={40}
+                height={40}
+                className="h-10 w-10"
+              />
+              <h3 className="text-2xl font-bold text-white">BrainIgnights</h3>
+            </div>
             <p className="text-lg mb-2 bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
               Igniting Ideas. Engineering Intelligence.
             </p>

@@ -10,6 +10,25 @@ export const metadata: Metadata = {
   title: 'BrainIgnights - Igniting Intelligent Transformation',
   description: 'Premier digital transformation partner for enterprises seeking to bridge legacy systems with intelligent, AI-powered future through innovative solutions in agentic AI, cloud modernization, and enterprise content intelligence.',
   keywords: 'AI transformation, legacy modernization, cloud migration, IBM FileNet, enterprise content management, data engineering, agentic AI',
+  icons: {
+    icon: '/logo.svg',
+  },
+  openGraph: {
+    title: 'BrainIgnights - Igniting Intelligent Transformation',
+    description:
+      'Premier digital transformation partner for enterprises seeking to bridge legacy systems with intelligent, AI-powered future through innovative solutions in agentic AI, cloud modernization, and enterprise content intelligence.',
+    url: 'https://www.brainignights.com',
+    siteName: 'BrainIgnights',
+    images: [
+      {
+        url: '/logo.svg',
+        width: 512,
+        height: 512,
+        alt: 'BrainIgnights logo',
+      },
+    ],
+    type: 'website',
+  },
 }
 
 export default function RootLayout({
