@@ -41,7 +41,7 @@ export default function AboutPage() {
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-6xl mb-4">👨‍💼</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Ashok Baghele</h3>
-              <p className="text-xl text-primary-600 font-semibold mb-4">CTO & Managing Director</p>
+              // <p className="text-xl text-primary-600 font-semibold mb-4">CTO & Managing Director</p>
               <p className="text-gray-700 leading-relaxed">
                 With extensive experience as a Solution Architect, Ashok brings deep technical expertise in enterprise systems, cloud architecture, and AI transformation. He leads our technical strategy and ensures architect-led delivery in every engagement.
               </p>
@@ -49,7 +49,7 @@ export default function AboutPage() {
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-6xl mb-4">👩‍💼</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Ankita Baghele</h3>
-              <p className="text-xl text-primary-600 font-semibold mb-4">CEO</p>
+              //<p className="text-xl text-primary-600 font-semibold mb-4">CEO</p>
               <p className="text-gray-700 leading-relaxed">
                 Ankita drives the strategic vision and business growth of BrainIgnights. With a focus on client relationships and market positioning, she ensures that our solutions deliver exceptional value and transformative results.
               </p>
