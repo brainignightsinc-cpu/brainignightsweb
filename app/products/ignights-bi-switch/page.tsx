@@ -119,7 +119,7 @@ export default function IgnightsBISwitchPage() {
                   </ul>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-lg">
-                  <h3 className="font-bold text-lg mb-2 text-blue-800">🚧 Roadmap (Q1-Q2 2025)</h3>
+                  <h3 className="font-bold text-lg mb-2 text-blue-800">🚧 Roadmap (Q1-Q2 2026)</h3>
                   <ul className="space-y-1 text-blue-700 text-sm">
                     <li>• Looker migration support</li>
                     <li>• Qlik Sense integration</li>
