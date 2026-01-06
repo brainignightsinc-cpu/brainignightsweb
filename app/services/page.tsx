@@ -74,6 +74,20 @@ export default function ServicesPage() {
         'ECM/BPM best practices',
       ],
     },
+    {
+      title: 'Website Development',
+      description: 'Modern, responsive web applications built with Next.js, React, and cutting-edge technologies for exceptional user experiences.',
+      href: '/services/website-development',
+      icon: '🌐',
+      features: [
+        'Next.js 15 & React applications',
+        'Responsive & mobile-first design',
+        'Performance optimization',
+        'SEO & accessibility compliance',
+        'API integration & headless CMS',
+        'E-commerce & SaaS platforms',
+      ],
+    },
   ]
 
   return (

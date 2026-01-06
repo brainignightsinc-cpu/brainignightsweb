@@ -7,9 +7,9 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="container-custom section-padding">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Company Info */}
-          <div className="col-span-1 md:col-span-2">
+          <div className="col-span-1 md:col-span-2 lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <Image
                 src="/logo.svg"
@@ -52,6 +52,18 @@ export default function Footer() {
               <li><Link href="/services/ecm-bpm" className="hover:text-primary-400">ECM/BPM Solutions</Link></li>
               <li><Link href="/services/custom-development" className="hover:text-primary-400">Custom Development</Link></li>
               <li><Link href="/services/training" className="hover:text-primary-400">Corporate Training</Link></li>
+              <li><Link href="/services/website-development" className="hover:text-primary-400">Website Development</Link></li>
+            </ul>
+          </div>
+
+          {/* Products */}
+          <div>
+            <h4 className="text-white font-semibold mb-4">Products</h4>
+            <ul className="space-y-2">
+              <li><Link href="/products/ignights-bi-switch" className="hover:text-primary-400">BI Switch</Link></li>
+              <li><Link href="/products/ignights-cortex" className="hover:text-primary-400">Cortex Platform</Link></li>
+              <li><Link href="/products/ignights-ecm" className="hover:text-primary-400">ECM Platform</Link></li>
+              <li><Link href="/products" className="hover:text-primary-400">All Products</Link></li>
             </ul>
           </div>
 

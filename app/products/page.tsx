@@ -4,27 +4,16 @@ export default function ProductsPage() {
   const products = [
     {
       title: 'Ignights-Cortex',
-      description: 'Enterprise-grade Retrieval Augmented Generation (RAG) system powered by Confluence, Google Drive, SharePoint, OpenAI embeddings, and FAISS vector search.',
+      description: 'Complete enterprise knowledge intelligence platform with AI-powered RAG backend and modern Next.js frontend for seamless document processing and intelligent querying.',
       href: '/products/ignights-cortex',
       liveUrl: 'https://ai.brainignights.com/',
       icon: '🧠',
       features: [
-        'AI-powered knowledge retrieval',
+        'AI-powered knowledge retrieval & modern UI',
         'Multi-source document ingestion',
-        'Intelligent semantic search',
-        'Enterprise security & compliance',
-      ],
-    },
-    {
-      title: 'Ignights-Cortex UI',
-      description: 'Modern, enterprise-grade frontend for the Ignights-Cortex knowledge intelligence platform with beautiful UI and seamless API integration.',
-      href: '/products/ignights-cortex-ui',
-      icon: '🎨',
-      features: [
-        'Modern Next.js 15 interface',
-        'Real-time AI chat interface',
-        'System health monitoring',
-        'Mobile-responsive design',
+        'Intelligent semantic search & chat interface',
+        'Enterprise security & real-time monitoring',
+        'Next.js 15 frontend with FastAPI backend',
       ],
     },
     {
@@ -69,7 +58,7 @@ export default function ProductsPage() {
       {/* Products Grid */}
       <section className="section-padding">
         <div className="container-custom">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {products.map((product, index) => (
               <div
                 key={index}

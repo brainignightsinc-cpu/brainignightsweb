@@ -31,7 +31,7 @@ export default function IgnightsCortexPage() {
             <div className="prose prose-lg max-w-none">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Product Overview</h2>
               <p className="text-gray-700 mb-8 leading-relaxed">
-                Ignights-Cortex is our enterprise-grade Retrieval Augmented Generation (RAG) system that transforms how organizations access and utilize their knowledge base. By intelligently processing documents from multiple sources including Confluence, Google Drive, and SharePoint, Cortex provides accurate, context-aware answers to complex business questions.
+                Ignights-Cortex is a complete enterprise knowledge intelligence platform combining a powerful AI-powered Retrieval Augmented Generation (RAG) backend with a modern, intuitive Next.js frontend. The system transforms how organizations access and utilize their knowledge base by intelligently processing documents from multiple sources including Confluence, Google Drive, and SharePoint, providing accurate, context-aware answers through a beautiful, responsive user interface.
               </p>
 
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Key Features</h2>
@@ -45,8 +45,16 @@ export default function IgnightsCortexPage() {
                   <span><strong>AI-Powered Semantic Search</strong> - Uses OpenAI embeddings and FAISS vector search for intelligent document retrieval</span>
                 </li>
                 <li className="flex items-start">
+                  <span className="text-primary-600 mr-3 text-xl">🎨</span>
+                  <span><strong>Modern Next.js Interface</strong> - Beautiful, responsive UI built with Next.js 15, React 18, and Tailwind CSS</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary-600 mr-3 text-xl">💬</span>
+                  <span><strong>Intelligent Chat Interface</strong> - Seamless interaction with AI for natural language queries and responses</span>
+                </li>
+                <li className="flex items-start">
                   <span className="text-primary-600 mr-3 text-xl">⚡</span>
-                  <span><strong>Real-Time Query Processing</strong> - FastAPI backend ensures rapid response times for enterprise-scale queries</span>
+                  <span><strong>Real-Time Processing & Monitoring</strong> - FastAPI backend with live health checks and system performance metrics</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary-600 mr-3 text-xl">🔒</span>
@@ -63,7 +71,7 @@ export default function IgnightsCortexPage() {
               </ul>
 
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Technical Architecture</h2>
-              <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="grid md:grid-cols-3 gap-8 mb-12">
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="font-bold text-lg mb-3">Backend Stack</h3>
                   <ul className="space-y-2 text-gray-700">
@@ -72,6 +80,16 @@ export default function IgnightsCortexPage() {
                     <li>• OpenAI text-embedding-3-large</li>
                     <li>• FAISS vector database</li>
                     <li>• Document processing pipelines</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="font-bold text-lg mb-3">Frontend Stack</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li>• Next.js 15 with App Router</li>
+                    <li>• React 18 with Server Components</li>
+                    <li>• TypeScript for type safety</li>
+                    <li>• Tailwind CSS for styling</li>
+                    <li>• Zustand state management</li>
                   </ul>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-lg">

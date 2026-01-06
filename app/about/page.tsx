@@ -117,7 +117,7 @@ export default function AboutPage() {
       <section className="section-padding bg-white">
         <div className="container-custom">
           <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Our Products & Solutions</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="text-center">
               <div className="text-5xl mb-4">🔄</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Ignights BI Switch</h3>
@@ -129,18 +129,15 @@ export default function AboutPage() {
             <div className="text-center">
               <div className="text-5xl mb-4">🧠</div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Ignights-Cortex</h3>
-              <p className="text-gray-600 text-sm mb-4">Enterprise knowledge intelligence layer</p>
-              <a href="https://ai.brainignights.com/" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 font-medium text-sm">
-                View Live Demo →
-              </a>
-            </div>
-            <div className="text-center">
-              <div className="text-5xl mb-4">🎨</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Ignights-Cortex UI</h3>
-              <p className="text-gray-600 text-sm mb-4">Modern frontend for knowledge intelligence</p>
-              <Link href="/products/ignights-cortex-ui" className="text-primary-600 hover:text-primary-700 font-medium text-sm">
-                Learn More →
-              </Link>
+              <p className="text-gray-600 text-sm mb-4">Complete knowledge intelligence platform</p>
+              <div className="flex flex-col gap-1">
+                <a href="https://ai.brainignights.com/" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 font-medium text-sm">
+                  View Live Demo →
+                </a>
+                <Link href="/products/ignights-cortex" className="text-primary-600 hover:text-primary-700 font-medium text-sm">
+                  Learn More →
+                </Link>
+              </div>
             </div>
             <div className="text-center">
               <div className="text-5xl mb-4">📁</div>

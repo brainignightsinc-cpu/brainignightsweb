@@ -27,6 +27,12 @@ export default function Home() {
       icon: '📁',
     },
     {
+      title: 'Website Development',
+      description: 'Modern, responsive web applications built with Next.js, React, and cutting-edge technologies for exceptional user experiences.',
+      href: '/services/website-development',
+      icon: '🌐',
+    },
+    {
       title: 'Custom Enterprise Development',
       description: 'Microservices architecture, enterprise-grade web applications, and integration platforms.',
       href: '/services/custom-development',
@@ -37,6 +43,28 @@ export default function Home() {
       description: 'Corporate training in AI, cloud architecture, data engineering, and ECM/BPM best practices.',
       href: '/services/training',
       icon: '🎓',
+    },
+  ]
+
+  const products = [
+    {
+      title: 'Ignights BI Switch',
+      description: 'AI-powered enterprise BI migration platform - Transform Tableau & Power BI to Superset in weeks, not months.',
+      href: '/products/ignights-bi-switch',
+      icon: '🔄',
+    },
+    {
+      title: 'Ignights-Cortex',
+      description: 'Complete enterprise knowledge intelligence platform with AI-powered RAG backend and modern Next.js frontend for intelligent document processing.',
+      href: '/products/ignights-cortex',
+      liveUrl: 'https://ai.brainignights.com/',
+      icon: '🧠',
+    },
+    {
+      title: 'Ignights ECM',
+      description: 'Cloud-native enterprise content management platform with AI-powered document intelligence and secure storage.',
+      href: '/products/ignights-ecm',
+      icon: '📁',
     },
   ]
 
@@ -78,9 +106,14 @@ export default function Home() {
               <Link href="/contact" className="btn-primary text-lg">
                 Get Started
               </Link>
-              <Link href="/services" className="btn-secondary text-lg">
-                Our Services
-              </Link>
+              <div className="flex flex-col sm:flex-row gap-2">
+                <Link href="/products" className="btn-secondary text-lg">
+                  Our Products
+                </Link>
+                <Link href="/services" className="text-primary-600 hover:text-primary-700 font-semibold text-lg">
+                  Our Services
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -139,6 +172,58 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Products Overview */}
+      <section className="section-padding bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Our Product Portfolio
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Innovative AI-powered products designed to transform enterprise operations and knowledge management
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {products.map((product, index) => (
+              <div
+                key={index}
+                className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 group"
+              >
+                <div className="text-4xl mb-4">{product.icon}</div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
+                  {product.title}
+                </h3>
+                <p className="text-gray-600 leading-relaxed mb-4">{product.description}</p>
+                <div className="space-y-2">
+                  <Link
+                    href={product.href}
+                    className="block text-primary-600 font-semibold hover:underline"
+                  >
+                    Learn more →
+                  </Link>
+                  {product.liveUrl && (
+                    <a
+                      href={product.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-accent-600 font-semibold hover:underline"
+                    >
+                      View Live Demo →
+                    </a>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-12">
+            <Link href="/products" className="btn-primary">
+              View All Products
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Differentiators */}
       <section className="section-padding bg-white">
         <div className="container-custom">
@@ -172,7 +257,7 @@ export default function Home() {
             Ready to Transform Your Enterprise?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Let's discuss how we can help you bridge legacy systems with intelligent, AI-powered solutions.
+            Let's discuss how our AI-powered products and services can help you bridge legacy systems with intelligent, future-ready solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="bg-white text-primary-600 hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 text-lg">
