@@ -110,7 +110,7 @@ export default function Home() {
                 <Link href="/products" className="btn-secondary text-lg">
                   Our Products
                 </Link>
-                <Link href="/services" className="text-primary-600 hover:text-primary-700 font-semibold text-lg">
+                <Link href="/services" className="btn-secondary text-lg">
                   Our Services
                 </Link>
               </div>
@@ -153,20 +153,24 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <Link
+              <div
                 key={index}
-                href={service.href}
-                className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 group"
+                className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 group"
               >
                 <div className="text-4xl mb-4">{service.icon}</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
                   {service.title}
                 </h3>
-                <p className="text-gray-600 leading-relaxed">{service.description}</p>
-                <div className="mt-4 text-primary-600 font-semibold group-hover:underline">
-                  Learn more →
+                <p className="text-gray-600 leading-relaxed mb-4">{service.description}</p>
+                <div className="space-y-2">
+                  <Link
+                    href={service.href}
+                    className="block text-primary-600 font-semibold hover:underline"
+                  >
+                    Learn more →
+                  </Link>
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
         </div>
