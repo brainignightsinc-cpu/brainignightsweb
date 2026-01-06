@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'BrainIgnights - Igniting Intelligent Transformation',
-  description: 'Premier digital transformation partner for enterprises seeking to bridge legacy systems with intelligent, AI-powered future through innovative solutions in agentic AI, cloud modernization, and enterprise content intelligence.',
-  keywords: 'AI transformation, legacy modernization, cloud migration, IBM FileNet, enterprise content management, data engineering, agentic AI',
+  description: 'Premier digital transformation partner for enterprises seeking to bridge legacy systems with intelligent, AI-powered future through innovative solutions in agentic AI, cloud modernization, enterprise content intelligence, and automated BI migration.',
+  keywords: 'AI transformation, legacy modernization, cloud migration, IBM FileNet, enterprise content management, data engineering, agentic AI, BI migration, Tableau migration, Power BI migration, Apache Superset',
   icons: {
     icon: '/logo.svg',
   },

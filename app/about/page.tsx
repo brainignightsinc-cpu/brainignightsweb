@@ -113,6 +113,52 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Products & Solutions */}
+      <section className="section-padding bg-white">
+        <div className="container-custom">
+          <h2 className="text-4xl font-bold text-gray-900 text-center mb-12">Our Products & Solutions</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            <div className="text-center">
+              <div className="text-5xl mb-4">🔄</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Ignights BI Switch</h3>
+              <p className="text-gray-600 text-sm mb-4">AI-powered enterprise BI migration platform (MVP)</p>
+              <Link href="/products/ignights-bi-switch" className="text-primary-600 hover:text-primary-700 font-medium text-sm">
+                Learn More →
+              </Link>
+            </div>
+            <div className="text-center">
+              <div className="text-5xl mb-4">🧠</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Ignights-Cortex</h3>
+              <p className="text-gray-600 text-sm mb-4">Enterprise knowledge intelligence layer</p>
+              <a href="https://ai.brainignights.com/" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 font-medium text-sm">
+                View Live Demo →
+              </a>
+            </div>
+            <div className="text-center">
+              <div className="text-5xl mb-4">🎨</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Ignights-Cortex UI</h3>
+              <p className="text-gray-600 text-sm mb-4">Modern frontend for knowledge intelligence</p>
+              <Link href="/products/ignights-cortex-ui" className="text-primary-600 hover:text-primary-700 font-medium text-sm">
+                Learn More →
+              </Link>
+            </div>
+            <div className="text-center">
+              <div className="text-5xl mb-4">📁</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Ignights ECM</h3>
+              <p className="text-gray-600 text-sm mb-4">Enterprise content management platform</p>
+              <Link href="/products/ignights-ecm" className="text-primary-600 hover:text-primary-700 font-medium text-sm">
+                Learn More →
+              </Link>
+            </div>
+          </div>
+          <div className="text-center mt-12">
+            <Link href="/products" className="btn-primary">
+              View All Products
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="section-padding bg-gradient-to-r from-primary-600 to-accent-600">
         <div className="container-custom text-center">

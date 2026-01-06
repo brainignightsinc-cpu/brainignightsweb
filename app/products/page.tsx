@@ -39,6 +39,19 @@ export default function ProductsPage() {
         'Advanced search & metadata',
       ],
     },
+    {
+      title: 'Ignights BI Switch',
+      description: 'AI-powered enterprise BI migration platform that automates Tableau & Power BI transitions to Apache Superset with 70% automation and 2-week deployment.',
+      href: '/products/ignights-bi-switch',
+      icon: '🔄',
+      features: [
+        '70% automated BI migration',
+        'Tableau & Power BI to Superset',
+        'AI semantic analysis',
+        '2-week deployment (vs 6 months)',
+        'Enterprise-grade MVP',
+      ],
+    },
   ]
 
   return (
