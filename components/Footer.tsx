@@ -29,7 +29,7 @@ export default function Footer() {
             <div className="space-y-2">
               <p className="flex items-center space-x-2">
                 <span>📞</span>
-                <a href="tel:+918319924486" className="hover:text-primary-400">+91-8319924486</a>
+                <a href="tel:+919604953707" className="hover:text-primary-400">+91-9604953707</a>
               </p>
               <p className="flex items-center space-x-2">
                 <span>✉️</span>

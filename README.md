@@ -102,7 +102,7 @@ The site can be deployed to any platform that supports Next.js:
 
 ## 📞 Contact
 
-- **Phone:** +91-8319924486
+- **Phone:** +91-9604953707
 - **Email:** brainignightsinc@gmail.com
 - **Website:** www.brainignights.com
 

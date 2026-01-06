@@ -172,8 +172,8 @@ export default function ContactPage() {
                   <div className="space-y-3 text-gray-700">
                     <p className="flex items-center space-x-3">
                       <span className="text-2xl">📞</span>
-                      <a href="tel:+918319924486" className="hover:text-primary-600">
-                        +91-8319924486
+                      <a href="tel:+919604953707" className="hover:text-primary-600">
+                        +91-9604953707
                       </a>
                     </p>
                     <p className="flex items-center space-x-3">
