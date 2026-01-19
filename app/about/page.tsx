@@ -40,11 +40,11 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-white p-8 rounded-xl shadow-lg">
               <div className="text-6xl mb-4">👨‍💼</div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Ashok Baghele</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">CTO & Managing Director</h3>
               {/* <p className="text-xl text-primary-600 font-semibold mb-4">CTO & Managing Director</p>*/}
 
               <p className="text-gray-700 leading-relaxed">
-                With extensive experience as a Solution Architect, Ashok brings deep technical expertise in enterprise systems, cloud architecture, and AI transformation. He leads our technical strategy and ensures architect-led delivery in every engagement.
+                With extensive experience as a Solution Architect, our CTO brings deep technical expertise in enterprise systems, cloud architecture, and AI transformation. He leads our technical strategy and ensures architect-led delivery in every engagement.
               </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg">

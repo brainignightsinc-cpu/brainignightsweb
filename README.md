@@ -108,7 +108,7 @@ The site can be deployed to any platform that supports Next.js:
 
 ## 👥 Leadership
 
-- **Ashok Baghele** - CTO & Managing Director
+- **CTO & Managing Director** - (Details to be added)
 - **Ankita Baghele** - CEO
 
 ## 📄 License
